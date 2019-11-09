@@ -26,7 +26,7 @@ body {
   box-shadow: 0px 0px 40px rgba(143, 158, 190, 0.3);
 }
 
-.card--hovered {
+.card:hover {
   transition: box-shadow 0.3s ease-in;
   box-shadow: 0px 10px 40px rgba(143, 158, 190, 0.5);
 }
@@ -43,7 +43,7 @@ body {
   transform: rotate(0) scale(1);
 }
 
-.card--hovered .card__thumbnail-image {
+.card:hover .card__thumbnail-image {
   transition: transform 0.3s ease-in;
   transform: rotate(15deg) scale(1.5916666667);
 }
